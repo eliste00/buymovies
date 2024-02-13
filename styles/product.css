@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image__wrapper {
+  height: 400px;
+  width: 100%;
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  text-align: left;
+}
+button {
+  background-color: gray;
+}
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .image__wrapper {
+    width: 45%;
+  }
+  .content {
+    width: 55%;
+  }
+}

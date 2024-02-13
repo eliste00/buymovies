@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  margin: 10px auto;
+}
+.text {
+  text-align: left;
+}
+.image__wrapper {
+  height: 100px;
+  width: 100px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+button.pay {
+  background-color: gray;
+  margin-top: 100px;
+}
