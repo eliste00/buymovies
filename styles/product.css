@@ -4,7 +4,7 @@ main {
   gap: 20px;
 }
 
-.image__wrapper {
+.image-wrapper {
   height: 400px;
   width: 100%;
 }
@@ -25,7 +25,7 @@ button {
     flex-direction: row;
     justify-content: center;
   }
-  .image__wrapper {
+  .image-wrapper {
     width: 45%;
   }
   .content {

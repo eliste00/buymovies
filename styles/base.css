@@ -17,11 +17,18 @@ nav {
   padding: 20px;
 }
 button {
+  cursor: pointer;
   color: #174ea6;
   background-color: #e8f0fe;
   border-radius: 48px;
   height: 48px;
   border: none;
+}
+button:hover {
+  background-color: #696a6c;
+}
+button:active {
+  background-color: #e6e9ed;
 }
 main {
   color: #fff;

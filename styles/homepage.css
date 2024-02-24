@@ -17,12 +17,12 @@
   background-color: gray;
   overflow: hidden;
 }
-.card__image {
+.card-image {
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
-.card__footer {
+.card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,27 +30,4 @@
 .arrow {
   width: 20px;
   height: 14px;
-}
-
-.card--large {
-  height: 130 px;
-}
-
-.card__body {
-  display: flex;
-  flex-direction: column;
-
-  .card__category {
-    order: 3;
-  }
-
-  .card__title {
-    order: 1;
-  }
-  .card_titel {
-    order: 2;
-  }
-  .card_titel {
-    order: 3;
-  }
 }
